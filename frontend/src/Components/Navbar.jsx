@@ -2,21 +2,22 @@ import React from 'react'
 import './Navbar.css'
 import logo from '../Assets/logo.jpg'
 import { FaShoppingCart } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="nav-logo">
-        <img src={logo} alt="" height="140px" width="140px" />
+        <img src={logo} alt="" height="110px" width="140px" />
         <p>SHOPPER</p>
       </div>
       <ul className="nav-menu">
-        <li>Shop</li>
+        <li>Shop <hr /></li>
         <li>Men</li>
         <li>Women</li>
         <li>Kids</li>
       </ul>
       <div className="nav-login-cart">
-        <button>Login</button>
+       <Link to="/login"><button>Login</button></Link> 
         <FaShoppingCart />
       </div>
     </div>
