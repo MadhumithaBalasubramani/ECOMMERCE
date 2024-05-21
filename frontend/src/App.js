@@ -12,12 +12,12 @@ function App() {
     <Navbar/>
     
     <Routes>   
-      {/* <Route path="/shop" element={<Shop/>}/>
+      <Route path="/shop" element={<Shop/>}/>
       <Route path="/men" element={<Men/>}/>
       <Route path="/women" element={<Women/>}/>
-      <Route path="/kids" element={<Kids/>}/> */}
+      <Route path="/kids" element={<Kids/>}/>
       <Route path="/login" element={<LoginSignup/>}/>
-      {/* <Route path="/cart" element={<Cart/>}/> */}
+      <Route path="/cart" element={<Cart/>}/>
     </Routes> 
     </>
   )
