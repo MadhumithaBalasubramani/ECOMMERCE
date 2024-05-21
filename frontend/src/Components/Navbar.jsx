@@ -18,7 +18,8 @@ const Navbar = () => {
       </ul>
       <div className="nav-login-cart">
        <Link to="/login"><button>Login</button></Link> 
-        <FaShoppingCart />
+        <p className='nav-cart' ><FaShoppingCart /></p>
+        <div className='nav-cart-count'>0</div>
       </div>
     </div>
   )
