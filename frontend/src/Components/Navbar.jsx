@@ -1,9 +1,10 @@
-import React from 'react'
+
 import './Navbar.css'
 import logo from '../Assets/logo.jpg'
 import { FaShoppingCart } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 const Navbar = () => {
+  
   return (
     <div className='navbar'>
       <div className="nav-logo">
@@ -11,10 +12,10 @@ const Navbar = () => {
         <p>SHOPPER</p>
       </div>
       <ul className="nav-menu">
-        <li>Shop <hr /></li>
-        <li>Men</li>
-        <li>Women</li>
-        <li>Kids</li>
+        <li ><Link to="/">Shop </Link></li>
+        <li><Link to="/men">Men </Link></li>
+        <li><Link to="/women">Women </Link></li>
+        <li><Link to="/kid">Kids </Link></li>
       </ul>
       <div className="nav-login-cart">
        <Link to="/login"><button>Login</button></Link> 

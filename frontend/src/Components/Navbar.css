@@ -53,6 +53,7 @@
     padding: 2px;
     box-shadow: 0 1px 8px -2px black;
     background-color: pink;
+    color: black;
 }
 .nav-logo{
     display: flex;
@@ -60,7 +61,7 @@
     gap: 10px;
 }
 .nav-logo img{
-    border-radius: 95px;
+    border-radius: 120px;
     padding: 5px;
 }
 .nav-logo p{
@@ -76,7 +77,6 @@
     font: size 20px; 
     font-weight: 500;
     padding-left: 5px;
-    
 }
 .nav-menu li{
     display: flex;
@@ -85,15 +85,9 @@
     justify-content: center;
     gap: 3px;
     cursor: pointer;
-}
-.nav-menu hr{
     border: none;
-    width:80%;
-    height: 3px;
-    border-radius: 10px;
-    background: palevioletred;
-    
 }
+
 .nav-login-cart{
     display: flex;
     align-items: center;
