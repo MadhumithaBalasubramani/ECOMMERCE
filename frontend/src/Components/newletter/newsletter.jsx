@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Women = () => {
+const Newsletter = () => {
   return (
     <div>
-      <h1>hello</h1>
+      
     </div>
   )
 }
 
-export default Women
+export default Newsletter;
